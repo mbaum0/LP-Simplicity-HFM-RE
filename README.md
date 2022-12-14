@@ -25,3 +25,5 @@ Reverse engineering the BLE protocol used by the Simplicity HFM Bed Frame
 
 
 The "Button Up" message is sent any time a button is released. It is the same message for each button.
+
+I found the remote codes by installing the bluetooth logging profile offered by Apple, and using there companion app PacketLogger on my Mac. Once these were linked, I use the L&P adjustable base app to sample different buttons. The ATT messages were picked up by PacketLogger.
